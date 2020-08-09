@@ -4,6 +4,7 @@ In this example, we have a native namespace package, which consists of three sub
 
 One thing to note here is the Executable script (eg. os.py here) should not be part of python package. It should be separated file.
 
+
 ### More reading
 
 Python 3.3 added implicit namespace packages from [PEP 420](https://www.python.org/dev/peps/pep-0420). All that is required to create a native namespace package is that you just omit __init__.py from the namespace package directory. An example file structure:
